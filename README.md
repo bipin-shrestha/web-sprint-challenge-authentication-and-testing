@@ -76,6 +76,7 @@ These goals may or may not be things you have learned in this module but they bu
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+-  Sessions are stored in server's memory whereas Json web tokens are stateless and stored in client side instead of server's memory. Sessions don't require signatures but json web tokens have cryptographic signatures. Sessions work only in a single domain whereasas Json web tokens you cn authenticate a user across multiple location with multiple domains i.e because they are stored locally in request handler.
 2. What does `bcryptjs` do to help us store passwords in a secure manner?
 3. How are unit tests different from integration and end-to-end testing?
 4. How does _Test Driven Development_ change the way we write applications and tests?
